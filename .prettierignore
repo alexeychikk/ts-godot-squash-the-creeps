@@ -1,0 +1,8 @@
+# Add files here to ignore them from prettier formatting
+
+.godot
+/dist
+node_modules
+/resources
+/src/godot
+package.json

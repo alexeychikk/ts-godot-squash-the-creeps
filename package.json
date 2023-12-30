@@ -1,0 +1,17 @@
+{
+	"name": "ts-godot-squash-the-creeps",
+	"version": "0.0.1",
+	"description": "Squash the Creeps tutorial for Godot Engine in TypeScript",
+	"scripts": {
+		"clean": "rimraf ./dist",
+		"prets": "npm run clean",
+		"ts": "tsc --project tsconfig.json",
+		"ts:watch": "npm run ts -- --watch"
+	},
+	"dependencies": {
+		"typescript": "^5.3.3"
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.5"
+	}
+}
