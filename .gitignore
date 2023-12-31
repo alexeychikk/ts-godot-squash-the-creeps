@@ -2,4 +2,5 @@
 .godot/
 dist/
 node_modules/
+!node_modules/.gdignore
 .vscode/settings.json
